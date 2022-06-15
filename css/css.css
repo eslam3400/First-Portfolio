@@ -1,0 +1,390 @@
+@font-face{font-family:"CYBERTOOTH";src:url("../fonts/CYBERTOOTH.ttf");}
+@font-face{font-family:"Gabriela-Regular";src:url("../fonts/Gabriela-Regular.ttf");}
+@font-face{font-family: "";src:url("../fonts/");}
+p{font-family: 'Gabriela-Regular'}
+h2,h3,li,button{font-family: 'arial'}
+.container{width: 1024px;margin: auto;}
+.clearfix{clear:both;}
+*{box-sizing: border-box;}
+button{cursor: pointer;}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.header{background-image: url('../img/2.jpg');background-size: cover;height: 670px;}
+.header .slider .intro{text-align: center;color: white;padding-top: 200px;}
+.header .intro span{color: #2ecc71}
+.header .slider .intro h2{
+	margin:auto;
+	margin-bottom: 80px;
+	font-size: 50px;
+	text-transform: uppercase;
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 780px;
+}
+
+.header .slider .intro a{
+	text-decoration: none;
+	color: white;
+	border: 2px solid #fff;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.header .slider .intro a:hover{
+	color: #30b576;
+	border-color: #30b576;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.header .navbar{
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.header .navbar a{
+	text-decoration: none;
+	color: white;
+	padding-bottom:5px;
+}
+
+.header .navbar h2{
+	float: left;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'CYBERTOOTH';
+	font-size: 40px;
+}
+
+.header .navbar h2 span{
+	color: #2ecc71;
+}
+
+.header .navbar ul {
+	list-style: none;
+	padding-left: 0px;
+	overflow: hidden;
+	float: right;
+	margin-top: 35px;
+}
+
+.header .navbar ul li {
+	display: inline;
+	padding: 10px;
+	float: left;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color: #30b576;border-bottom: 2px solid #30b576;}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.home{overflow: hidden;padding-top:60px;padding-bottom: 30px;}
+.home .stock{width: 50%;height: 200px;padding: 0 12px 0 12px;text-align: center;}
+.home .s1{float: left;}
+.home .s2{float: right;}
+.home .s3{float: left;margin-left: 25%;}
+.home .stock p{line-height: 1.7;color: #888;}
+.home .stock h2 {text-transform: uppercase;text-align: center;color: #555}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.about{background-color: #f2f2f2;overflow: hidden;padding-top: 20px;}
+.about h2{text-transform: uppercase;}
+.about h3{text-transform: uppercase;}
+.about .image{float: left;width: 50%;}
+.about .image img {width: 100%}
+.about .info{float: left;width: 50%;padding-top: 10px;}
+.about .info > p{margin: 0 0 10px 40px;line-height: 1.6;color: #888;font-size: 14px;}
+.about .info h2{margin: 40px 0 20px 40px;color: #555;font-size:23px;}
+.about .info h3{color: #555;font-size: 16px;}
+.about .info .hobbies{margin: 0px 0px 0px 40px;overflow: hidden;}
+.about .info .hobbies .content{float:left;width: 50%;min-height: 100px;margin-top: 10px;}
+.about .info .hobbies .content p{padding-right: 20px;line-height: 1.6;color: #888;margin: 15px 0 15px 0;font-size: 14px;}
+.about .content img{width: 20px;}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.skills{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.skills .info{
+	float: left;
+	width: 50%;
+	padding-left: 20px;
+}
+
+.skills .info h2{color: #555;text-transform: uppercase;}
+
+.skills .info p{padding: 5px 20px 5px 0;margin-bottom: 50px;line-height: 1.7;margin-top: 40px;color: #888}
+
+.skills .info a{
+	text-decoration: none;
+	margin-top: 30px;
+	background: transparent;
+	color: #2dcc70;
+	border: 2px solid #2dcc70;
+	padding: 15px 40px;
+	text-transform: uppercase;}
+
+.skills .draw{
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	padding-left: 45px;
+}
+
+.skills .content{
+	margin-bottom:40px;
+}
+
+.skills .content .bar{
+	height: 25px;
+	background-color: #f2f2f2;
+	margin-top: -10px;
+}
+
+.skills .content h3{text-transform: uppercase;color: #555}
+
+.skills .content span{
+	background-color: #2dcc70;
+	display: inline-block;
+	line-height: 25px;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.resume{
+	background-color: #f2f2f2;
+	padding-bottom: 120px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.resume h2{text-transform: uppercase;color: #555}
+
+.resume p{color: #888;margin-bottom: 50px;margin-top: 30px;}
+
+.resume a{
+	text-decoration: none;
+	margin-top: 15px;
+	background: transparent;
+	color: #2dcc70;
+	border: 2px solid #2dcc70;
+	padding: 15px 40px;
+	text-transform: uppercase;	
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.education{
+	overflow: hidden;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.education .info{
+	float: left;
+	width: 50%;
+	padding-right: 30px;
+}
+
+.education h2{color: #555;text-transform: uppercase;}
+
+.education p{color: #888}
+
+.education .info p{line-height: 1.7;}
+
+.education .info2{
+	float: left;
+	width: 50%;
+	padding-left: 30px;
+}
+
+.education .info2 .small{
+	font-size: 15px;
+	line-height:.6;
+	margin-top: -10px;
+}
+
+.education .info2 .gpa{
+	background-color: #2dcc70;
+	width: 75px;
+	height: 25px;
+	color: black;
+	line-height: 25px;
+}
+
+.education .info2 .p{line-height: 1.5}
+
+.education .info2 hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.education .section1{
+	margin-bottom: 80px;
+}
+
+.education .section2{
+	margin-bottom: 60px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.workexp{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.workexp h2{color: #555;text-transform: uppercase;}
+
+.workexp p{color: #888}
+
+.workexp .info{
+	float: left;
+	width: 50%;
+	padding-right:30px;
+}
+
+.workexp .info p{line-height: 1.7}
+
+.workexp .info2{
+	float: left;
+	width: 50%;
+	padding-left: 30px; 
+}
+
+.workexp .info2 .small{
+	font-size: 15px;
+	color: #555;
+	line-height:.6;
+	margin-top: -10px;
+}
+
+.workexp .info2 .gpa{
+	background-color: #2dcc70;
+	width: 70px;
+	height: 25px;
+	color: black;
+	line-height: 25px;
+}
+
+.workexp .info2 .p{line-height: 1.5}
+
+.workexp .info2 hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.workexp .section1{
+	margin-bottom: 80px;
+}
+
+.workexp .section2{
+	margin-bottom: 80px;
+}
+
+.workexp .section3{
+	margin-bottom: 60px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.testimonials{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 90px;
+	}
+
+.testimonials i{text-align: center;font-size: 30px; margin-bottom: 20px;}
+
+.testimonials q{
+	line-height: 1.7;
+	color: #888;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: arial, tahoma
+}
+
+.testimonials h2{
+	text-transform: uppercase;
+	color: #555
+}
+
+.testimonials ul{
+	list-style: none;
+	text-align: center;
+	padding-left: 0px;
+	cursor: pointer;
+	padding-top: 10px;
+}
+
+.testimonials ul li{
+	width: 15px;
+	height: 15px;
+	border-radius: 10px; 
+	border: 1px solid #2dcc70;
+	display: inline-block;
+}
+
+.testimonials ul li.active,
+.testimonials ul li:hover{background-color: #2dcc70}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.portfolio{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.portfolio h2{text-transform: uppercase;color: #555;margin-top: 60px;font-size: 30px;}
+
+.portfolio p{padding: 30px 80px 30px 80px;line-height: 1.7;color: #888}
+
+.portfolio .img{
+	float: left;
+	width: 33.33333%;
+	margin-bottom: 10px;
+}
+
+.portfolio .img img{
+	width: 92%;
+	margin:10px;
+	padding: 3px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 10px 10px 12px #ccc
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.contact{overflow: hidden;padding-top: 30px;padding-bottom: 30px;background-color: #252f31;}
+.contact .info{float: left;width: 50%;padding-left: 20px;}
+.contact .info p{color:#999999}
+.contact .info .p{padding: 20px 0px 0 0;line-height: 1.7}
+.contact .info .section1{margin: 30px 0 30px 0}
+.contact .info .section1 p{line-height: 1.5}
+.contact .info span{line-height: 1.5}
+.contact .info h2{text-transform: uppercase;color: white;}
+.contact .info strong{color: white;margin-right: 30px;}
+.contact .fillbox{float: left;width: 50%;padding-left: 30px;}
+.contact .fillbox h3{color: white}
+.contact input {background-color: #4b5557;border:none;width: 88%;height: 42px;color: #fff}
+.contact textarea{background-color: #4b5557;border:none;color: #fff;width: 88%;height: 200px;}
+.contact .fillbox button{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #191e22;
+	color: white;
+	border: 0 solid #fff;
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.footer{text-align: center;padding-top: 5px;padding-bottom: 5px;background-color: #191e22;}
+.footer p{padding-top: 0;}
+.footer ul{list-style: none;padding-left: 0;cursor: pointer;text-align: center}
+.footer ul li{display: inline-block;padding-left: 5px;}
+.footer ul li a{color: black;font-size: 30px;}
+.footer ul li a:hover{color: #fff}
